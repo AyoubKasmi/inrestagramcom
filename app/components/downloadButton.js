@@ -27,7 +27,7 @@ export default function DownloadButton(
           const url = window.URL.createObjectURL(new Blob([blob]));
           const a = document.createElement('a');
           a.href = url;
-          a.download = `XinstagramX_${userName}.${fileExtension}`;
+          a.download = `inRestagram_${userName}.${fileExtension}`;
           document.body.appendChild(a);
           a.click();
           document.body.removeChild(a);

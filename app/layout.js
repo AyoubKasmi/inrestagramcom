@@ -8,27 +8,27 @@ const inter = Inter({ subsets: ['latin'] })
 export const metadata = {
   metadataBase: new URL(`${process.env.URL}`),
   title: {
-    default:'Xinstagram',
-    template: `%s | Xinstagram`
+    default:'inRestagram',
+    template: `%s | inRestagram`
   },
-  description: 'Explore Xinstagram, your ultimate destination for elevating your Instagram experience. Download Instagram Reels, scrape thumbnails, pick engaging comments, and gain insights into creation time, likes, and views. Discover powerful tools providing a comprehensive understanding of your favorite content and creators.',
+  description: 'Explore inRestagram, your ultimate destination for elevating your Instagram experience. Download Instagram Reels, scrape thumbnails, pick engaging comments, and gain insights into creation time, likes, and views. Discover powerful tools providing a comprehensive understanding of your favorite content and creators.',
   keywords: ["Instagram tools", "Reels downloader", "Thumbnails scrapper", "Comments picker", "Instagram insights", "Content creator details", "Reel creation time","likes full number", "views full number", "followers full number","Instagram download", "Instagram scrapping", "instagram exact numbers"],
-  authors: ['Xinstagram'],
+  authors: ['inRestagram'],
   alternates: {
     canonical: '/'
   },
   openGraph: {
-    title: 'Xinstagram | Empowering Your Instagram Journey, One Click at a Time.',
-    description: 'Explore Xinstagram, your ultimate destination for elevating your Instagram experience. Download Instagram Reels, scrape thumbnails, pick engaging comments, and gain insights into creation time, likes, and views. Discover powerful tools providing a comprehensive understanding of your favorite content and creators.',
-    url: 'https://xinstagramx.com',
-    siteName: 'Xinstagramx.com',
+    title: 'inRestagram | Empowering Your Instagram Journey, One Click at a Time.',
+    description: 'Explore inRestagram, your ultimate destination for elevating your Instagram experience. Download Instagram Reels, scrape thumbnails, pick engaging comments, and gain insights into creation time, likes, and views. Discover powerful tools providing a comprehensive understanding of your favorite content and creators.',
+    url: `${process.env.URL}`,
+    siteName: 'inRestagram.com',
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Xinstagram | Empowering Your Instagram Journey, One Click at a Time.',
-    description: 'Explore Xinstagram, your ultimate destination for elevating your Instagram experience. Download Instagram Reels, scrape thumbnails, pick engaging comments, and gain insights into creation time, likes, and views. Discover powerful tools providing a comprehensive understanding of your favorite content and creators.',
-    creator: '@xinstagramx',
+    title: 'inRestagram | Empowering Your Instagram Journey, One Click at a Time.',
+    description: 'Explore inRestagram, your ultimate destination for elevating your Instagram experience. Download Instagram Reels, scrape thumbnails, pick engaging comments, and gain insights into creation time, likes, and views. Discover powerful tools providing a comprehensive understanding of your favorite content and creators.',
+    creator: '@inRestagram',
   }
 }
 

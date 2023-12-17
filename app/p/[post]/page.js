@@ -215,7 +215,7 @@ export default async function page({params}) {
                                 <>
                                 <div className="relative">
                                     <div className="relative">
-                                        <Image className='mb-6 rounded-lg' width={640} height={1136} alt={'dummy display'} src={"https://dummyimage.com/640x1136/5a5a61/fff&text=XinstagramX"}/>
+                                        <Image className='mb-6 rounded-lg' width={640} height={1136} alt={'dummy display'} src={"https://dummyimage.com/640x1136/5a5a61/fff&text=inRestagram"}/>
                                         <div className="absolute inset-0 bg-gray-500 opacity-25"></div>
                                     </div>
                                     <div className="absolute inset-0 flex items-center justify-center drop-shadow-md">

@@ -22,7 +22,7 @@ export async function POST(request) {
     return new Response(buffer, {
       status: 200,
       headers: {
-        'Content-Disposition': `attachment; filename=xinstagramx_${userName}.${fileExtension}`,
+        'Content-Disposition': `attachment; filename=inRestagram_${userName}.${fileExtension}`,
         'Content-Type': fileType + '/' + fileExtension,
       },
     })
