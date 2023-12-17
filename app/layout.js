@@ -6,7 +6,7 @@ import FooterComponent from './sections/footer';
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  metadataBase: new URL(`https://${process.env.VERCEL_URL}`),
+  metadataBase: new URL(`https://${process.env.VERCEL_BRANCH_URL}`),
   title: {
     default:'inRestagram',
     template: `%s | inRestagram`

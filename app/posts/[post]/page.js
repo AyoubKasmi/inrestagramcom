@@ -20,7 +20,7 @@ export async function generateMetadata({ params }) {
 
 export default async function page({params}) {
     
-    const response = await fetch(`https://${process.env.VERCEL_URL}/api/instapost`, {
+    const response = await fetch(`https://${process.env.VERCEL_BRANCH_URL}/api/instapost`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
