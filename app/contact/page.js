@@ -1,3 +1,9 @@
+export const metadata = {
+    title: 'Contact us',
+    alternates: {
+        canonical: '/contact',
+    },
+}
 
 export default function page() {
   return (

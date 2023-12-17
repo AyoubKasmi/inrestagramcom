@@ -26,6 +26,9 @@ export default function FooterComponent() {
                 <li>
                     <Link href="/contact" className="mr-4 hover:underline md:mr-6">Contact</Link>
                 </li>
+                <li>
+                    <Link href="/privacy-policy" className="mr-4 hover:underline md:mr-6">Privacy Policy</Link>
+                </li>
             </ul>
             <span className="text-xs md:text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2023-2024 <a href="#" className="hover:underline">Mostaqim™</a>. All Rights Reserved.</span>
         </div>
