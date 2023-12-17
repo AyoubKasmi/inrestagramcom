@@ -15,10 +15,10 @@ export default function FooterComponent() {
                     <Link href="/" className="mr-4 hover:underline md:mr-6 ">Home</Link>
                 </li>
                 <li>
-                    <Link href="/#features" scroll={false} className="mr-4 hover:underline md:mr-6">Features</Link>
+                    <Link href={{ pathname: "/", hash: "features"}} className="mr-4 hover:underline md:mr-6">Features</Link>
                 </li>
                 <li>
-                    <Link href="/#about" scroll={false} className="mr-4 hover:underline md:mr-6">About</Link>
+                    <Link href={{ pathname: "/", hash: "about"}} className="mr-4 hover:underline md:mr-6">About</Link>
                 </li>
                 <li>
                     <Link href="#" className="mr-4 hover:underline md:mr-6">Blog</Link>

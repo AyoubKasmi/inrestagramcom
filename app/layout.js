@@ -6,7 +6,7 @@ import FooterComponent from './sections/footer';
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  metadataBase: new URL(`https://${process.env.VERCEL_BRANCH_URL}`),
+  metadataBase: new URL(`https://www.inrestagram.com`),
   title: {
     default:'inRestagram',
     template: `%s | inRestagram`
@@ -29,7 +29,15 @@ export const metadata = {
     title: 'inRestagram | Empowering Your Instagram Journey, One Click at a Time.',
     description: 'Explore inRestagram, your ultimate destination for elevating your Instagram experience. Download Instagram Reels, scrape thumbnails, pick engaging comments, and gain insights into creation time, likes, and views. Discover powerful tools providing a comprehensive understanding of your favorite content and creators.',
     creator: '@inRestagram',
-  }
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+    },
+  },
 }
 
 export default function RootLayout({ children }) {
