@@ -6,7 +6,7 @@ import FooterComponent from './sections/footer';
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  metadataBase: new URL('https://xinstagramx.com'),
+  metadataBase: new URL(`${process.env.URL}`),
   title: {
     default:'Xinstagram',
     template: `%s | Xinstagram`
