@@ -5,7 +5,7 @@ export default function FooterComponent() {
     <footer className="p-4 bg-white lg:p-10 dark:bg-gray-900">
         <div className="mx-auto max-w-screen-xl text-center">
             <Link href="/" className="flex flex-col justify-center items-center mb-6 text-md md:text-xl font-semibold text-gray-900 dark:text-white">
-                <svg className="mb-2 w-4 h-4 md:w-6 md:h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+                <svg className="mb-2 w-5 h-5 md:w-6 md:h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
                     <path d="M2 2h4L3.75 5h2.5L8.5 2h1.715l-2.25 3h2.5l2.25-3h1.715l-2.25 3h2.5l2.25-3H18v3h2V1a1 1 0 0 0-1-1H1a1 1 0 0 0-1 1v4h2V2ZM0 7v12a1 1 0 0 0 1 1h18a1 1 0 0 0 1-1V7H0Zm12.76 6.458-4.818 3.43A.593.593 0 0 1 7 16.429V9.571a.593.593 0 0 1 .942-.459l4.818 3.43a.557.557 0 0 1 0 .916Z"/>
                 </svg>
                 <p>in<span className='font-extrabold italic'>Re</span>stagram</p>  
@@ -27,7 +27,7 @@ export default function FooterComponent() {
                     <Link href="/contact" className="mr-4 hover:underline md:mr-6">Contact</Link>
                 </li>
                 <li>
-                    <Link href="/privacy-policy" className="mr-4 hover:underline md:mr-6">Privacy Policy</Link>
+                    <Link href="/privacy-policy" className="hover:underline mt-4 md:mt-0">Privacy Policy</Link>
                 </li>
             </ul>
             <span className="text-xs md:text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2023-2024 <a href="#" className="hover:underline">Mostaqim™</a>. All Rights Reserved.</span>
