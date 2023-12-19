@@ -3,7 +3,7 @@ import './globals.css'
 import { Flowbite, ThemeModeScript } from 'flowbite-react';
 import NavbarComponent from './sections/navbar';
 import FooterComponent from './sections/footer';
-import { GoogleAnalytics } from '@next/third-parties/google'
+import { GoogleTagManager } from '@next/third-parties/google'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
@@ -55,7 +55,7 @@ export default function RootLayout({ children }) {
           
           <FooterComponent/>
         </Flowbite>
-        <GoogleAnalytics gaId="G-F1KE7NR6CF" />
+        <GoogleTagManager gtmId="GTM-T7KW56F8" />
       </body>
     </html>
   )
