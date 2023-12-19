@@ -13,7 +13,7 @@ export const metadata = {
     template: `%s | inRestagram`
   },
   description: 'Explore inRestagram, your ultimate destination for elevating your Instagram experience. Download Instagram Reels, scrape thumbnails, pick engaging comments, and gain insights into creation time, likes, and views. Discover powerful tools providing a comprehensive understanding of your favorite content and creators.',
-  keywords: ["Instagram tools", "Reels downloader", "Thumbnails scrapper", "Comments picker", "Instagram insights", "Content creator details", "Reel creation time","likes full number", "views full number", "followers full number","Instagram download", "Instagram scrapping", "instagram exact numbers"],
+  keywords: ["Instagram tools", "Reels downloader", "Thumbnails scrapper", "Comments picker", "full", "view count", "play count", "likes count", "comments count", "followers count", "Instagram insights", "Content creator details", "Reel creation time","likes full number", "views full number", "followers full number","Instagram download", "Instagram scrapping", "instagram exact numbers"],
   authors: ['inRestagram'],
   alternates: {
     canonical: '/'
