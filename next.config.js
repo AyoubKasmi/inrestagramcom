@@ -10,6 +10,12 @@ const nextConfig = {
             },
             {
                 protocol: 'https',
+                hostname: '*.fbcdn.net',
+                port: '',
+                pathname: '/v/**',
+            },
+            {
+                protocol: 'https',
                 hostname: 'dummyimage.com',
                 port: '',
                 pathname: '/**',

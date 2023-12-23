@@ -19,16 +19,22 @@ export async function generateMetadata({ params }) {
 }
 
 export default async function page({params}) {
+    let response;
+    try {
+        response = await fetch(`http://${process.env.VERCEL_BRANCH_URL}/api/instapost`, {
+            method: 'POST',
+            headers: {
+            'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({ post: params.post }),
+        });
+    } catch (error) {
+        return (
+            <ErrorComponent />
+        )
+    }
     
-    const response = await fetch(`https://${process.env.VERCEL_BRANCH_URL}/api/instapost`, {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({ post: params.post }),
-    });
-
-    if (response.status !== 200) {
+    if (!response || response.status !== 200) {
         return (
             <ErrorComponent />
         )
